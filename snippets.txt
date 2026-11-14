@@ -1,0 +1,37 @@
+posts: list[dict] = [
+    {
+        "id": 1,
+        "author": "Corey Schafer",
+        "title": "FastAPI is Awesome",
+        "content": "FastAPI is a modern Python framework for building APIs quickly and easily.",
+        "date_posted": "April 20, 2025",
+    },
+    {
+        "id": 2,
+        "author": "Jane Doe",
+        "title": "Python is Great for Web Development",
+        "content": "Python is a powerful programming language, and FastAPI makes backend development even easier.",
+        "date_posted": "April 21, 2025",
+    },
+    {
+        "id": 3,
+        "author": "John Smith",
+        "title": "Learning REST APIs",
+        "content": "REST APIs allow different applications to communicate with each other using HTTP methods.",
+        "date_posted": "April 22, 2025",
+    },
+    {
+        "id": 4,
+        "author": "Alice Johnson",
+        "title": "Understanding HTTP Methods",
+        "content": "GET, POST, PUT, PATCH, and DELETE are commonly used HTTP methods in backend development.",
+        "date_posted": "April 23, 2025",
+    },
+    {
+        "id": 5,
+        "author": "David Miller",
+        "title": "Why Learn Backend Development",
+        "content": "Backend development helps you build the server-side logic, databases, and APIs of modern applications.",
+        "date_posted": "April 24, 2025",
+    },
+]
