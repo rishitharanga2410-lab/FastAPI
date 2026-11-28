@@ -8,6 +8,8 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
     )
 
+    database_url: str
+
     secret_key: SecretStr
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 30
@@ -19,7 +21,7 @@ class Settings(BaseSettings):
     reset_token_expire_minutes: int = 60
 
     mail_server: str = "localhost"
-    mail_port: int = 2525
+    mail_port: int = 587
     mail_username: str = ""
     mail_password: SecretStr = SecretStr("")
     mail_from: str = "noreply@example.com"
