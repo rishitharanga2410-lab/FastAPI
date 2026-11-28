@@ -1,5 +1,7 @@
 #custom
 populate_db.py
+docker-compose.yaml
+check_s3.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
